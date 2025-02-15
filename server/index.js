@@ -13,7 +13,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: process.env.CLIENT_URL,
+    origin: `https://blog-website-blond-three.vercel.app`,
     credentials: true
 }));
 app.use(express.json());
