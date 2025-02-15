@@ -2,7 +2,7 @@ import React from 'react';
 
 const GoogleLogin = () => {
   const handleGoogleLogin = () => {
-    window.location.href = 'https://blog-website-wgs9.onrender.com/api/auth/google';
+    window.location.href = 'https://blog-website-1-rv8u.onrender.com/api/auth/google';
   };
 
   return (

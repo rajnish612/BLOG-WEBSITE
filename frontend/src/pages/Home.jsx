@@ -20,7 +20,7 @@ const Home = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await axios.get('https://blog-website-wgs9.onrender.com/api/posts');
+        const response = await axios.get('https://blog-website-1-rv8u.onrender.com/api/posts');
         setPosts(response.data);
         setLoading(false);
       } catch (error) {

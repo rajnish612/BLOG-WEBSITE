@@ -39,7 +39,7 @@ const Login = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('https://blog-website-wgs9.onrender.com/api/auth/login', formData);
+      const response = await axios.post('https://blog-website-1-rv8u.onrender.com/api/auth/login', formData);
       localStorage.setItem('token', response.data.token);
       navigate('/');
     } catch (error) {
@@ -50,7 +50,7 @@ const Login = () => {
   };
 
   const handleGoogleLogin = () => {
-    window.location.href = 'http://localhost:5002/api/auth/google';
+    window.location.href = 'https://blog-website-1-rv8u.onrender.com/api/auth/google';
   };
 
   return (
