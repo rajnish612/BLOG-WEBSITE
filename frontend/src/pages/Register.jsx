@@ -41,7 +41,7 @@ const Register = () => {
     setLoading(true);
 
     try {
-      await axios.post('http://localhost:5002/api/auth/register', formData);
+      await axios.post('https://blog-website-wgs9.onrender.com/api/auth/register', formData);
       navigate('/login');
     } catch (error) {
       setError(error.response?.data?.message || 'Registration failed. Please try again.');

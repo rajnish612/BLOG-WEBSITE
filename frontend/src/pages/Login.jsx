@@ -39,7 +39,7 @@ const Login = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5002/api/auth/login', formData);
+      const response = await axios.post('https://blog-website-wgs9.onrender.com/api/auth/login', formData);
       localStorage.setItem('token', response.data.token);
       navigate('/');
     } catch (error) {

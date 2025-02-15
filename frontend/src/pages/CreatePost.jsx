@@ -48,7 +48,7 @@ const CreatePost = () => {
         .filter(tag => tag);
 
       await axios.post(
-        'http://localhost:5002/api/posts',
+        'https://blog-website-wgs9.onrender.com/api/posts',
         { ...formData, tags: tagsArray },
         {
           headers: { Authorization: `Bearer ${token}` }
