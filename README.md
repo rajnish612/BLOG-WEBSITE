@@ -28,5 +28,10 @@ A modern and responsive blog website for creating, reading, and managing blog po
 ##ENVIRONMENT VARIABLES
 MONGO_URI = your mongo DB connection string
 JWT = your jwt secret
+FOR GOOGLE AUTH:
+CLIENT_URL = your client url
+GOOGLE_CLIENT_ID = your client id
+GOOGLE_CLIENT_SECRET = your client secret
+PORT = your connection port
    
 
